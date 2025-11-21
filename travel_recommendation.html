@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendation</title>  
+    <link rel="stylesheet" href="travel_recommendation.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:,">
+  </head>
+
+  <body> 
+
+    <nav class="navbar">
+      <div class="logo">
+        <img src="plane-icon.png" alt="Logo">
+        <span>TravelBloom</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <form class="search-container" onsubmit="return false;">
+        <input type="text" placeholder="Enter a destination or keyword" id="searchInput">
+        <button type="button" id="searchBtn" class="search-btn">Search</button>
+        <button type="button" id="clearBtn" class="clear-btn">Clear</button>
+      </form>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero-text">
+        <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+        <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes,
+        while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+        <button class="btn-book">BOOK NOW</button>
+      </div>
+    </div>
+
+    
+    <section id="results" class="search-results"></section>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>

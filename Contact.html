@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="Contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="plane-icon.png" alt="Logo">
+    <span>TravelBloom</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="travel_recommendation.html">Home</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a class="active" href="Contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<header class="contact-hero">
+  <div class="vertical-line"></div>
+
+  <div class="hero-left">
+    <h1>CONTACT US</h1>
+    <p class="sub">Get in touch</p>
+
+    <ul class="social-left">
+      <li><a href="#" aria-label="Twitter">T</a></li>
+      <li><a href="#" aria-label="Facebook">F</a></li>
+      <li><a href="#" aria-label="Instagram">I</a></li>
+      <li><a href="#" aria-label="YouTube">Y</a></li>
+    </ul>
+  </div>
+
+  <div class="contact-panel" role="region" aria-label="Contact form">
+    <form id="contact-form" action="#" method="post" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message" required></textarea>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</header>
+
+</body>
+</html>
